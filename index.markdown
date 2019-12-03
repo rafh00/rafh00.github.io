@@ -13,7 +13,7 @@ layout: default
     </a>
   </h1>
   <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-  {{ post.content }}
+  {{ post.excerpt }}
 </article>
 
 {% endfor %}

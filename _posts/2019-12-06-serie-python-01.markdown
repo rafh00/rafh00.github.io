@@ -58,7 +58,8 @@ Arquivo novo, vida nova. Começaremos dando um ar de projeto ao nosso código, u
 	```
 Como preencher estas informações acima não é nenhum mistério, né? Pois então, agora começaremos a programar.
 	
-	```python
+{% highlight python %}	
+	
 	print(“\n $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$”)
 	print(“\n $$$$$$ Oi, meu chapa!                                              $$$$$”)
 	print(“\n $$$$$$ Como eh que a vossa grandeza se chama?   $$$$$”)
@@ -66,7 +67,7 @@ Como preencher estas informações acima não é nenhum mistério, né? Pois ent
 	print(“\n $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n”)
 	nome = input()
 	print(“\n “+nome+” Ce eh o bichao mesmo hein”)
-	```
+{% endhighlight %}
 	
 Copiem, salvem na extensão ‘.py’ e executem através de “Run/Run module” ou pelo famoso ‘F5’. 
 	

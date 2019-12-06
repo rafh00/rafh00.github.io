@@ -16,12 +16,13 @@ Assim, no post inaugural de hoje eu trarei a vocês um pouco do Python e sua sin
 
 ## INSTALAÇÃO
 
-Para quem usa Windows: acessem https://www.python.org/downloads/ e baixem a versão mais recente do Python 3. A instalação é super simples, apenas dar next ad infinitum.
+Para quem usa Windows: acessem ![link](https://www.python.org/downloads/) e baixem a versão mais recente do Python 3. A instalação é super simples, apenas dar next ad infinitum.
 Para usuários de Linux: provavelmente o python já veio instalado, porém é importante verificar se a versão será a 3. Como ter certeza? Abra o terminal e digite:
 
-		```
-		>> python
-		```
+{% highlight python %}
+	>> python
+{% endhighlight %}
+
 Se estiver instalado, o console abrirá e a versão aparecerá logo nas primeiras linhas. Se for necessário o download, recomendo que busquem no site do python, pois lá se encontram instruções específicas para sistemas que utilizam apt, yum e etc.
 
 ## HELLO WORLD
@@ -34,9 +35,9 @@ Para abri-lo, eu recomendo acessarem a barra de buscas do seu sistema operaciona
 ![Novo arquivo](/assets/serie-python-01/idle_aberto.png)
 
 Uma vez aberto, somos agraciados com uma interface simples contendo apenas o menu superior e o console do python já rodando a pleno vapor. É nele mesmo em que marcaremos a história da programação. Preparem-se! Dedos a postos, digitem:
-		```python
-		>> print(“Hello world! \n”)
-		```
+{% highlight python %}
+	>> print(“Hello world! \n”)
+{% endhighlight %}
 Pasmem e contemplem o resultado, na linha seguinte à do comando temos o nosso belíssimo Hello World, exatamente onde ele deveria estar! Certamente que isso fora deveras trivial, porém notem que apenas uma linha de código, bastante legível e próxima à língua natural (dos anglófonos) fora suficiente para cumprir o papel proposto.
 
 ## CONHECENDO A LINGUAGEM: UM PROGRAMA EDUCADO
@@ -50,12 +51,12 @@ Desta vez sairemos do console e partiremos para a escrita de texto de verdade. P
 
 Arquivo novo, vida nova. Começaremos dando um ar de projeto ao nosso código, usando uma ferramenta que toda linguagem de programação que se preze contém: os comentários. Façamos um cabeçalho que nos orgulhe a cada vez que o arquivo for aberto:
 
-	```python
+{% highlight python %}	
 	# Comentários são feitos com o famoso “jogo da velha”
 	# Programa muito educado
 	# Feito por ninguém menos que:
 	# Em Dia/Mês/Ano
-	```
+{% endhighlight %}
 Como preencher estas informações acima não é nenhum mistério, né? Pois então, agora começaremos a programar.
 	
 {% highlight python %}	
@@ -79,9 +80,9 @@ Copiem, salvem na extensão ‘.py’ e executem através de “Run/Run module�
 
 O que fizemos aqui? Bem, primeiramente imprimimos na tela uma espécie de interface, usando o caractere ‘$’ para criar uma sensação de preenchimento na tela e nos lembrarmos que o dólar está alto. A mágica do negócio ficou por conta da linha
 	
-	```python
+{% highlight python %}
 	>> nome=input()
-	```
+{% endhighlight %}
 
 O que fizemos nela? Primeiro, criamos uma variável chamada de nome. O que são variáveis? Grosso modo: posições de memória que podem assumir o valor que dissermos para elas assumirem e sobre as quais podemos realizar operações. Na prática, utilizaremos elas para armazenar qualquer tipo de informação que nos for pertinente.
 a função ‘input()’ é responsável por ler o que for digitado no terminal, se sua leitura é finalizada quando a tecla ‘enter’ for detectada. Sua entrada, aqui, é de texto. Por fim, o operador ‘=’ é chamado aqui de operador de atribuição, no sentido de que atribui o valor da DIREITA à variável que está a ESQUERDA.

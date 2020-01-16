@@ -28,7 +28,7 @@ twitter_username:
 github_username:  
 permalink: /:categories/:title
 # Build settings
-remote_theme: rafh00/jekyll-theme-minimal
+theme: rafh00/jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
